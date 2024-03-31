@@ -19,6 +19,6 @@ on:
       with:
         go-version: ${{matrix.go-version}}
       
-    - name: Build-DB
-      run: docker-compose: build
+    # - name: Build-DB
+    #   run: docker-compose: build
     
