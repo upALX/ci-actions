@@ -59,4 +59,4 @@ jobs:
         uses: docker://agilepathway/pull-request-label-checker:latest
         with:
           any_of: fix,hotfix,feature,major
-          repo_token: ${{TOKEN_GITHUB_CI}}
+          repo_token: ${{secrets.TOKEN_GITHUB_CI}}
